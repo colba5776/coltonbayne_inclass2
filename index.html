@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>In Class Assignment2</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <div class="welcome_header">
+        Welcome to the Interactive ABC's of CSS Technology Learning Website!
+    </div>
+    <div class="display_header">
+        Click on the buttons below to reveal and learn the CSS technology features of the corresponding letters:
+    </div>
+    <div class="img_box">
+        <div class="img1_box">
+            <img class="img1" src="./media/img/css-letter-a.png" alt="letter-a" />
+            <input type="button" class="hide_img1" value="Hide Result" onclick="hideImg1()" />
+        </div>
+        <div class="img2_box">
+            <img class="img2" src="./media/img/css-letter-b.png" alt="letter-b" />
+            <input type="button" class="hide_img2" value="Hide Result" onclick="hideImg2()" />
+        </div>
+        <div class="img3_box">
+            <img class="img3" src="./media/img/css-letter-c.png" alt="letter-c" />
+            <input type="button" class="hide_img3" value="Hide Result" onclick="hideImg3()" />
+        </div>
+    </div>
+    <div class="btn_box">
+        <input type="button" class="btn1" value="A" onclick="showImg1()" />
+        <input type="button" class="btn2" value="B" onclick="showImg2()" />
+        <input type="button" class="btn3" value="C" onclick="showImg3()" />
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>
